@@ -1,0 +1,64 @@
+/*--------------------------
+            RESET
+---------------------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------
+            RESET
+---------------------------*/
+
+
+/*--------------------------
+            COMMON
+---------------------------*/
+
+body{
+    background-color: #e6e6e6;
+}
+
+
+#container{
+    max-width: 62.5rem;
+    margin: auto;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: ;
+}
+
+.square{
+    width: calc(100% / 7);
+    height: auto;
+    border: 10px solid #f8f8f8 ;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+
+#title{
+    font-size: 1.875rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.frizz-buzz{
+    background-color: #f0466f;
+    
+}
+
+.frizz{
+    background-color:#0cd6a1;
+}
+
+.buzz{
+    background-color: #ffd166;
+}
+
+.number{
+    background-color: #1389b2;
+}
